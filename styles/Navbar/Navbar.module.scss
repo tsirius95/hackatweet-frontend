@@ -1,0 +1,40 @@
+.container {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .linkContainer {
+
+        display: flex;
+        flex-direction: column;
+
+        .buttonNav {
+
+            height: 32px;
+            padding: 24px;
+
+            display: flex;
+            align-items: center;
+
+            background-color: bisque;
+
+            color: white;
+
+            .icon {
+
+                margin-right: 16px;
+                font-size: 24px;
+
+            }
+
+            .link {
+
+                font-size: 24px;
+
+            }
+
+        }
+
+    }
+}

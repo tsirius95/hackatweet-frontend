@@ -1,0 +1,67 @@
+.loginContainer {
+
+    display: flex;
+
+        .imagesContainer {
+
+            width: 65vw;
+            height: 100vh;
+
+        }
+
+
+
+        .formContainer {
+
+            width: 35vw;
+            padding: 64px 104px 64px 64px;
+            background-color: white;
+
+        }
+        
+}
+
+.modalContainer {
+
+    display: flex;
+    flex-direction: column;
+
+        .inputs {
+
+            display: flex;
+            flex-direction: column;
+
+            .inputContainer {
+
+                display: flex;
+                flex-direction: column;
+
+                label {
+
+                    margin-bottom: 8px;
+
+                    font-size: 12px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                }
+
+                input {
+
+                    padding: 12px 8px;
+
+                    border: none;
+                    border-radius: 16px;
+
+                    margin-bottom: 24px;
+                }
+            }
+        }
+
+        .btn {
+
+            height: 48px;
+            border-radius: 80px;
+        }
+
+        
+}
