@@ -1,0 +1,52 @@
+// Style Font Size
+
+$title: 20px;
+$cta: 17px;
+$body: 15px;
+$label: 13px;
+
+// Style Color
+
+$primary-color: #1d9bf1;
+
+
+$neutral4: #0a0b0d;
+$neutral3: #16181c;
+$neutral2: #2f3336;
+$neutral1: #71767c;
+$neutral0: #e8e9ea;
+
+// PAGE HOME //
+.layout {
+    width: 100vw;
+    display: flex;
+
+    .navbar {
+        width: 20%;
+    }
+
+    .middle {
+        width: 60%;
+    }
+
+    .sidebarRight {
+        width: 20%;
+    }
+
+}
+
+
+// Card Tweet //
+.tweetCard {
+
+    font-size: $body;
+
+    .userInfos {
+
+        display: flex;
+
+        .pseudo {
+            font-weight: 700;
+        }
+    }
+}

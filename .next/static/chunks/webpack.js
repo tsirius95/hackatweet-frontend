@@ -161,7 +161,11 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
+<<<<<<< HEAD
 /******/ 		__webpack_require__.h = function() { return "b04f5712ab7f9c19"; }
+=======
+/******/ 		__webpack_require__.h = function() { return "f5ffc3184e2602d1"; }
+>>>>>>> karl
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
