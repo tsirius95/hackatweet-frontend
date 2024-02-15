@@ -7,7 +7,7 @@ import Feed from '../components/Feed';
 import SidebarRight from '../components/SidebarRight';
 
 // IMPORT CSS
-import styles from '../styles/Layout.module.css'
+import styles from '../styles/DesignSystem.module.css'
 
 
 export default function Home() {
