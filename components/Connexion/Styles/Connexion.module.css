@@ -1,0 +1,41 @@
+.loginContainer {
+  display: flex;
+}
+.loginContainer .imagesContainer {
+  width: 65vw;
+  height: 100vh;
+}
+.loginContainer .formContainer {
+  width: 35vw;
+  padding: 64px 104px 64px 64px;
+  background-color: white;
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+}
+.modalContainer .inputs {
+  display: flex;
+  flex-direction: column;
+}
+.modalContainer .inputs .inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+.modalContainer .inputs .inputContainer label {
+  margin-bottom: 8px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.modalContainer .inputs .inputContainer input {
+  padding: 12px 8px;
+  border: none;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.modalContainer .btn {
+  height: 48px;
+  border-radius: 80px;
+}/*# sourceMappingURL=Connexion.module.css.map */
