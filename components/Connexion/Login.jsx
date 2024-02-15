@@ -3,7 +3,6 @@ import styles from './Styles/Connexion.module.css';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Modal, Button } from 'antd';
-
 import Signup from './Signup'
 import Signin from './Signin'
 
@@ -18,7 +17,7 @@ export default function Login() {
   const showModalIn = () => {
     setIsSignIn(true);
   };
-  
+
   const handleOkUp = () => {
     setIsSignUp(false);
   };
@@ -50,4 +49,4 @@ export default function Login() {
       </div>
     </div>
   )
-}
+};
