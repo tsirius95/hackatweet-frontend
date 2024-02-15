@@ -161,7 +161,15 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
+<<<<<<< HEAD
 /******/ 		__webpack_require__.h = function() { return "69f58995aaffcab2"; }
+=======
+<<<<<<< HEAD
+/******/ 		__webpack_require__.h = function() { return "b04f5712ab7f9c19"; }
+=======
+/******/ 		__webpack_require__.h = function() { return "f5ffc3184e2602d1"; }
+>>>>>>> karl
+>>>>>>> 45387040cac0a640071a3615a8f98d7d86ebded0
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

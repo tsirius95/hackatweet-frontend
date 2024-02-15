@@ -1,0 +1,23 @@
+.layout {
+  width: 100vw;
+  display: flex;
+}
+.layout .navbar {
+  width: 20%;
+}
+.layout .middle {
+  width: 60%;
+}
+.layout .sidebarRight {
+  width: 20%;
+}
+
+.tweetCard {
+  font-size: 15px;
+}
+.tweetCard .userInfos {
+  display: flex;
+}
+.tweetCard .userInfos .pseudo {
+  font-weight: 700;
+}/*# sourceMappingURL=DesignSystem.module.css.map */
